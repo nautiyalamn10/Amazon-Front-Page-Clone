@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+li {
+  padding: 0.25rem;
+  font-size: small;
+}
+ul > li {
+  padding-left: 0.95rem;
+}
+.log-out {
+  margin-top: 2.5rem;
+}
+.main-section-banner {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd-21pwIf-7bML5hC-RrC4twf1SUNeVo23IDKbpAeJtesm3im80Wbeu19qla4wTQgpVg&usqp=CAU);
+
+  background-position: center;
+  background-size: contain;
+  background-repeat-y: no-repeat;
+}
+.video-game {
+  background: url(Nintendo.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.sony-camera {
+  background: url(SonyCamera.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.iphone-12 {
+  background: url(Iphone12.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.macbook-pro {
+  background: url(Macbook_pro.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+input,input::placeholder{
+  color: white;
+  font-weight: 500;
+}
+
+/* Hovers */
